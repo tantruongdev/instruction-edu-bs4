@@ -163,8 +163,8 @@
         nisi quas tempore id saepe sapiente consectetur quis nobis explicabo numquam?
       </p>
       <div class="welcome__courses container">
-        <div class="row">
-          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 welcome__col">
+        <div class="row mx-0">
+          <div class="mb-5 mb-md-0 col-xl-4 col-lg-4 col-md-4 col-12 welcome__col">
             <div class="welcome__course">
               <i class="fa-solid fa-desktop"></i>
               <h3 class="welcome__title">
@@ -179,7 +179,7 @@
             </div>
 
           </div>
-          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 welcome__col">
+          <div class=" mb-5 mb-md-0 col-md-4 col-12 welcome__col">
             <div class="welcome__course">
               <i class="fa-solid fa-arrows-up-down-left-right"></i>
               <h3 class="welcome__title">
@@ -193,7 +193,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
-          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 welcome__col">
+          <div class="mb-5 mb-md-0 col-md-4 col-12 welcome__col">
             <div class="welcome__course">
               <i class="fa-solid fa-chart-column"></i>
               <h3 class="welcome__title">
@@ -220,28 +220,28 @@
     </div>
     <div class="stats__content container">
       <div class="row">
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+        <div class="col-md-3 col-sm-6 col-6">
           <div class="stats__item">
             <i class="fa-solid fa-graduation-cap"></i>
             <h4>Graduates</h4>
             <p>45</p>
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+        <div class="col-md-3 col-sm-6 col-6">
           <div class="stats__item">
             <i class="fa-solid fa-user"></i>
             <h4>Certified Staff</h4>
             <p>165</p>
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+        <div class="col-md-3 col-sm-6 col-6">
           <div class="stats__item">
             <i class="fa-solid fa-users"></i>
             <h4>Students</h4>
             <p>563</p>
           </div>
         </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+        <div class="col-md-3 col-sm-6 col-6">
           <div class="stats__item">
             <i class="fa-solid fa-trophy"></i>
             <h4>Awards</h4>
@@ -411,10 +411,10 @@
     </div>
     <div class="news__content container">
       <div class="row">
-        <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 col-12">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 col-12 ">
           <img src="./img/g7.jpg" alt="">
         </div>
-        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12 col-12 order-sm-2 order-xs-2">
+        <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12 col-12 mb-5 mb-md-0">
           <div class="news__item">
             <h3><a href="#" data-toggle="modal" data-target="#newsModal">SIT AMET JUSTO VITAE</a></h3>
             <h4>5/01/2018</h4>
@@ -425,7 +425,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12 col-12 order-sm-2 order-xs-2">
+        <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12 col-12 order-md-1 order-2 mb-5 mb-md-0s">
           <div class="news__item">
             <h3><a href="#" data-toggle="modal" data-target="#newsModal">FUSCE SCELERISSQUE</a></h3>
             <h4>5/01/2018</h4>
@@ -434,8 +434,7 @@
               Dolor.</p>
           </div>
         </div>
-        <div
-          class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 col-12 order-xxl-2 order-xl-2 order-lg-2 order-md-2 ">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 col-12 order-md-2 order-1">
           <img src="./img/g10.jpg" alt="">
         </div>
       </div>
@@ -572,16 +571,16 @@
   <script>
     $('.owl-carousel').owlCarousel({
       loop: true,
-      margin: 10,
+      margin: 20,
       nav: false,
       responsive: {
         0: {
           items: 1
         },
-        600: {
-          items: 3
+        576: {
+          items: 2
         },
-        1000: {
+        1200: {
           items: 3
         }
       }

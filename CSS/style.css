@@ -42,7 +42,7 @@ ul {
 .heading h2 {
   color: var(--primary-color);
   font-size: 4.0rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.5px;
 
 }
@@ -80,18 +80,11 @@ body section:nth-child(2) {
   }
 
   .heading h2 {
-    color: var(--primary-color);
     font-size: 3.0rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-
   }
 
   .heading p {
-    text-transform: capitalize;
     font-size: 1.4rem;
-    color: #000;
-    letter-spacing: 4px;
   }
 
   section {
@@ -383,11 +376,12 @@ body section:nth-child(2) {
 .welcome__col {
   border: 1px solid black;
   padding: 30px;
+  /* margin-bottom: 32px; */
 }
 
 .welcome__title {
   color: var(--primary-color);
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   font-weight: 700;
   margin: 16px 0;
 }
@@ -395,7 +389,6 @@ body section:nth-child(2) {
 .welcome__course h4 {
   font-size: 1.4rem;
   font-weight: 600;
-
 }
 
 .welcome__course p {
@@ -547,8 +540,8 @@ body section:nth-child(2) {
   background-color: var(--primary-color);
 }
 
-/* NEWS */
 
+/* NEWS */
 
 
 .news__content img {
@@ -558,9 +551,9 @@ body section:nth-child(2) {
   margin-bottom: 32px;
 }
 
-.news__item {
+/* .news__item {
   margin-bottom: 32px;
-}
+} */
 
 .news__item h3 a {
   font-size: 2.0rem;
